@@ -1,0 +1,73 @@
+/* Aplicando o gradiente de fundo a todo o body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8c0ff, #3faffa); /* Gradiente de fundo azul claro para verde menta */
+    color: #333;
+}
+
+/* Estilizando os títulos */
+h1, h2, h3 {
+    text-align: center;
+    color: #FFFFFF; /* Cor branca para os títulos */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilizando os formulários */
+input[type="text"], input[type="password"], input[type="date"], textarea, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #FFFFFF; /* Fundo branco para os inputs e textarea */
+}
+
+/* Estilizando os botões */
+input[type="submit"], input[type="reset"], button {
+    background-color: #3faffa; /* Azul escuro para botões */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+    background-color: #3399cc; /* Azul mais claro para hover */
+    transform: scale(1.05);
+}
+
+/* Estilizando links */
+a {
+    color: #3faffa; /* Azul escuro para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando labels */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333; /* Cor cinza escuro para labels */
+}
+
+/* Estilizando o layout do container central */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
